@@ -22,17 +22,17 @@ const ContactLeft = () => {
                 <h2 className='text-base uppercase font-titleFont mb-4'>Find me in</h2>
             </div>
             <div className='flex gap-4'>
-                <a href='https://www.facebook.com/share/1KpS6vcy4M/' target='_blank'>
+                <a href='https://www.facebook.com/share/1KpS6vcy4M/' target='_blank' rel="noreferrer">
                     <span className='BannerIcon'>
                         <FaFacebookF />
                     </span>
                 </a>
-                <a href='https://www.linkedin.com/in/hvchinchole/' target='_blank'>
+                <a href='https://www.linkedin.com/in/hvchinchole/' target='_blank' rel="noreferrer">
                     <span className='BannerIcon'>
                         <FaLinkedinIn />
                     </span>
                 </a>
-                <a href='https://www.instagram.com/harsh_artist_08/' target='_blank'>
+                <a href='https://www.instagram.com/harsh_artist_08/' target='_blank' rel="noreferrer">
                     <span className='BannerIcon'>
                         <FaInstagram />
                     </span>
