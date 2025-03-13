@@ -13,11 +13,9 @@ const ProjectCard = ({ title, des, src }) => {
                     <div className='flex items-center justify-between'>
                         <h3 className='text-base uppercase text-designColor font-normal'>{title}</h3>
                         <div className='pr-3 lgl:pr-0 flex gap-2'>
-                        <a href='https://github.com/Harshal-28200/CDAC_Project.git' target='_blank'>
                             <span className='text-lg w-10 h-10 rounded-full bg-black inline-flex justify-center items-center text-gray-400 hover:text-designColor duration-300 cursor-pointer'>
                                 <BsGithub />
                             </span>
-                        </a>
                         </div>  
                     </div>
                     <p className='text-sm lgl:tracking-wide mt-4 hover:text-gray-100 duration-300'>{des}</p>
