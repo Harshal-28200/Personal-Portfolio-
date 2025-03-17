@@ -64,17 +64,29 @@ const Navbar = () => {
                                     Find me in
                                 </h2>
                                 <div className="flex gap-4">
+<<<<<<< HEAD
                                     <a href='https://www.facebook.com/share/1KpS6vcy4M/' target='_blank' rel="noreferrer">
+=======
+                                    <a href='https://www.facebook.com/share/1KpS6vcy4M/' target="_blank" rel="noreferrer">
+>>>>>>> f9f8c9c (second commit)
                                         <span className="w-10 h-10 bg-black bg-opacity-25 text-gray-200 text-xl inline-flex items-center justify-center rounded-md shadow-shadowOne hover:bg-opacity-40 hover:-translate-y-1 transition-all hover:text-designColor cursor-pointer duration-300">
                                             <FaFacebookF />
                                         </span>
                                     </a>
+<<<<<<< HEAD
                                     <a href='https://www.linkedin.com/in/hvchinchole/' target='_blank' rel="noreferrer">
+=======
+                                    <a href='https://www.linkedin.com/in/hvchinchole/' target="_blank" rel="noreferrer">
+>>>>>>> f9f8c9c (second commit)
                                         <span className="w-10 h-10 bg-black bg-opacity-25 text-gray-200 text-xl inline-flex items-center justify-center rounded-md shadow-shadowOne hover:bg-opacity-40 hover:-translate-y-1 transition-all hover:text-designColor cursor-pointer duration-300">
                                             <FaLinkedinIn />
                                         </span>
                                     </a>
+<<<<<<< HEAD
                                     <a href='https://www.instagram.com/harsh_artist_08/' target='_blank' rel="noreferrer">
+=======
+                                    <a href='https://www.instagram.com/harsh_artist_08/' target="_blank" rel="noreferrer">
+>>>>>>> f9f8c9c (second commit)
                                     <span className="w-10 h-10 bg-black bg-opacity-25 text-gray-200 text-xl inline-flex items-center justify-center rounded-md shadow-shadowOne hover:bg-opacity-40 hover:-translate-y-1 transition-all hover:text-designColor cursor-pointer duration-300">
                                         <FaInstagram />
                                     </span>
