@@ -1,5 +1,5 @@
 import React from 'react'
-import { Resume } from '../../assets';
+import { Resume_1 } from '../../assets';
 const Footer = () => {
   return (
     <div>
@@ -11,7 +11,7 @@ const Footer = () => {
           </div>
           <div className='w-full lgl:w-full text-end pr-0 pt-1 lgl:pt-1 flex justify-end lgl:justify-end'>
             <button className='w-[150px] h-8 lgl:w-[200px] lgl:h-12 bg-[#141518] rounded-lg lgl:text-base text-xs text-gray-400 uppercase hover:text-white duration-300 hover:border-[1px] hover:border-designColor border-transparent shadow-shadowOne lgl:mr-5'>
-              <a href={Resume} Download="Resume">Resume Download</a>
+              <a href={Resume_1} Download="Resume">Resume Download</a>
             </button>
           </div>
         </div>

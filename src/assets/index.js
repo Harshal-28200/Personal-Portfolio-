@@ -8,7 +8,7 @@ import Portfolio_P1 from './images/Portfolio_P1.png';
 import Crime_RS_P2 from './images/Crime_RS_P2.png';
 import WetherApi_P3 from './images/WeatherApi_P3.jpg';
 import contactImg from '../assets/images/contactImg.png';
-import Resume from '../assets/images/Resume.pdf';
+import Resume_1 from '../assets/images/Resume_1.pdf';
 
 
 
@@ -26,5 +26,5 @@ export {
     Crime_RS_P2,
     WetherApi_P3,
     contactImg,
-    Resume
+    Resume_1
 };
