@@ -16,7 +16,7 @@ const Education = () => {
                         title="Post Graduate Diploma - PGDAC"
                         stream="PGDAC - Advanced Computing"
                         college="MET IIT Mumbai (2024 - 2025)"
-                        result="46.58 %"
+                        result="62.88 %"
                         des="My CDAC journey was a transformative experience, providing me with industry-oriented technical skills through rigorous coursework, hands-on projects, and collaborative learning. It helped me overcome challenges, master in new technologies, and prepare for a successful IT career."
                     />
                     <ResumeCard
