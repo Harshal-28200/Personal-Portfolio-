@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import Title from '../layouts/Title';
 import ContactLeft from './ContactLeft';
 
+
 const Contact = () => {
 
     const [username, setUsername] = useState("");
@@ -20,7 +21,7 @@ const Contact = () => {
     };
     //==============Email Validation End===============
 
-    const handeSend = (e) => {
+    const handleSend = (e) => {
         e.preventDefault();
         if (username === "") {
             setErrMsg("Username is required !")
@@ -93,7 +94,7 @@ const Contact = () => {
                                     } contactTextArea`} cols="30" rows="8" ></textarea>
                             </div>
                             <div className='w-full'>
-                                <button onClick={handeSend} className='w-full h-12 bg-[#141518] rounded-lg text-base text-gray-400 tracking-wider uppercase hover:text-white duration-300 hover:border-[1px] hover:border-designColor border-transparent' >Send Message</button>
+                                <button onClick={(e)=>handleSend(e)} className='w-full h-12 bg-[#141518] rounded-lg text-base text-gray-400 tracking-wider uppercase hover:text-white duration-300 hover:border-[1px] hover:border-designColor border-transparent' >Send Message</button>
                             </div>
                             {
                                 errMsg && (<p className="py-3 bg-gradient-to-r from-[#1e2024] to-[#23272b] shadow-shadowOne text-center text-red-500 text-base tracking-wide animate-bounce">{errMsg}</p>
